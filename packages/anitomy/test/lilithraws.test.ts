@@ -2,11 +2,11 @@ import { describe, it, expect } from 'vitest';
 
 import { parse } from '../src';
 
-import { other } from './testcase';
+import { LilithRaws } from './testcase';
 
-describe('Other filenames', () => {
+describe('Lilith-Raws', () => {
   it('should parse', () => {
-    for (const filename of other) {
+    for (const filename of LilithRaws) {
       const info = parse(filename);
       expect(info).toMatchSnapshot();
       expect(info?.title).toBeTruthy();

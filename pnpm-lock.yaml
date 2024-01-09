@@ -32,8 +32,6 @@ importers:
 
   packages/anitomy: {}
 
-  packages/core: {}
-
 packages:
 
   /@ampproject/remapping@2.2.1:
