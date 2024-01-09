@@ -7,8 +7,8 @@ A TypeScript port of [Anitomy](https://github.com/erengy/anitomy) inspired by [A
 
 More features:
 
-+ Implemented without any dependencies, which supports run in Node, browser
-+ Optimized for parsing chinese torrent name from [動漫花園](https://share.dmhy.org/)
++ Implemented without any dependencies, which supports run in Node.js, Deno, Bun, and Browser
++ Optimized for parsing Chinese torrent name from [動漫花園](https://share.dmhy.org/)
 
 > 👷‍♂️ Still work in progress.
 
@@ -62,6 +62,11 @@ const info = parse(`[Lilith-Raws] 熊熊勇闖異世界 PUNCH！ / Kuma Kuma Kum
   "year": undefined,
 }
 ```
+
+## Who is using?
+
++ [AnimeSpace](https://github.com/yjl9903/AnimeSpace): Keep following your favourite anime
++ [AnimeGarden](https://github.com/yjl9903/AnimeGarden): 動漫花園 3-rd party [mirror site](https://garden.onekuma.cn/) and API endpoint
 
 ## License
 
