@@ -1,6 +1,7 @@
 # Anitomy
 
 [![version](https://img.shields.io/npm/v/anitomy?label=Anitomy)](https://www.npmjs.com/package/anitomy)
+[![GitHub License](https://img.shields.io/github/license/yjl9903/anitomy)](https://github.com/yjl9903/anitomy/blob/main/LICENSE)
 [![CI](https://github.com/yjl9903/anitomy/actions/workflows/ci.yml/badge.svg)](https://github.com/yjl9903/anitomy/actions/workflows/ci.yml)
 
 A TypeScript port of [Anitomy](https://github.com/erengy/anitomy) inspired by [AnitomySharp](https://github.com/tabratton/AnitomySharp). All credits to [erengy](https://github.com/erengy) for the actual library.
