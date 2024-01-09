@@ -1,0 +1,40 @@
+{
+  "name": "[repo]",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/[actor]/[repo]#readme",
+  "bugs": {
+    "url": "https://github.com/[actor]/[repo]/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/[actor]/[repo].git"
+  },
+  "license": "MIT",
+  "author": "[username]",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "format": "prettier --write src/**/*.ts test/**/*.ts",
+    "test": "vitest",
+    "test:ci": "vitest --run",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=v20.10.0"
+  }
+}
