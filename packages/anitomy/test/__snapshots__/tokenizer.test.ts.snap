@@ -14706,3 +14706,84 @@ exports[`tokenize > should work 74`] = `
   ],
 }
 `;
+
+exports[`tokenize > should work 75`] = `
+{
+  "ok": true,
+  "result": {
+    "video.resolution": "1080p",
+  },
+  "tokens": [
+    {
+      "category": "Bracket",
+      "content": "[",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "OPFans枫雪动漫",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "]",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "[",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "#海贼王#ONE",
+      "enclosed": true,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "PIECE",
+      "enclosed": true,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "第1078话",
+      "enclosed": true,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "Mp4",
+      "enclosed": true,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": true,
+    },
+    {
+      "category": "Identifier",
+      "content": "1080p",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "",
+      "enclosed": true,
+    },
+  ],
+}
+`;

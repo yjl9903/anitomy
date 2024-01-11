@@ -242,6 +242,7 @@ function searchForAnimeTitle(context: ParserContext) {
   if (!inRange(context.tokens, tokenBegin)) {
     tokenBegin = 0;
     enclosedTitle = true;
+
     do {
       tokenBegin = findToken(context.tokens, tokenBegin, context.tokens.length, TokenFlag.Unknown);
       if (!inRange(context.tokens, tokenBegin)) break;
@@ -253,6 +254,8 @@ function searchForAnimeTitle(context: ParserContext) {
       }
 
       tokenBegin = findToken(context.tokens, tokenBegin, context.tokens.length, TokenFlag.Bracket);
+      if (!inRange(context.tokens, tokenBegin)) break;
+
       tokenBegin = findToken(context.tokens, tokenBegin, context.tokens.length, TokenFlag.Unknown);
     } while (inRange(context.tokens, tokenBegin));
   }

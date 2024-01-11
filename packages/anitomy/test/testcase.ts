@@ -84,4 +84,6 @@ export const other = [
   `[轻之国度字幕组][女友成双/女朋友 and 女朋友][第01-12话][720P][MP4]`
 ];
 
+export const fails = [`[OPFans枫雪动漫][#海贼王#ONE PIECE 第1078话 Mp4 1080p`];
+
 export const filesnames = [...LoliHouse, ...LilithRaws, ...KitaujiSub, ...other];
