@@ -13,7 +13,7 @@
     "postversion": "turbo run build"
   },
   "devDependencies": {
-    "@types/node": "^20.11.13",
+    "@types/node": "^20.11.14",
     "bumpp": "latest",
     "turbo": "^1.12.1",
     "typescript": "^5.3.3",
