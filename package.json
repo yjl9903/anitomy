@@ -15,7 +15,7 @@
   "devDependencies": {
     "@types/node": "^20.11.30",
     "bumpp": "latest",
-    "turbo": "^1.12.5",
+    "turbo": "^1.13.0",
     "typescript": "^5.4.3",
     "unbuild": "^2.0.0",
     "vite": "^5.2.2",
