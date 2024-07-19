@@ -112,11 +112,6 @@ export function matchEpisodePatterns(context: ParserContext, word: string, token
     if (matchSingleEpisodePattern(context, word, token)) {
       return true;
     }
-
-    // e.g. "07.5"
-    if (matchFractionalEpisodePattern(context, word, token)) {
-      return true;
-    }
   }
 
   if (numericFront) {
@@ -199,15 +194,6 @@ function matchMultiEpisodePattern(context: ParserContext, word: string, token: T
   }
 
   return false;
-}
-
-/**
- * Match fractional episodes. e.g. "07.5"
- */
-function matchFractionalEpisodePattern(context: ParserContext, word: string, token: Token) {
-  const RE = /^\d+\.5$/;
-  const match = RE.exec(word);
-  return match && setEpisodeNumber(context, word, token, true);
 }
 
 /**

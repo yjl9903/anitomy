@@ -1,5 +1,42 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
+exports[`Other filenames > should parse [ANi] 25jigen no Ririsa / 2.5 次元的誘惑 - 03 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4] 1`] = `
+{
+  "audio": {
+    "term": "AAC",
+  },
+  "episode": {
+    "number": 3,
+    "numberAlt": undefined,
+    "title": undefined,
+  },
+  "file": {
+    "checksum": undefined,
+    "extension": "MP4",
+    "name": "[ANi] 25jigen no Ririsa / 2.5 次元的誘惑 - 03 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]",
+  },
+  "language": "CHT",
+  "month": undefined,
+  "release": {
+    "group": "ANi",
+    "version": undefined,
+  },
+  "season": undefined,
+  "source": "WEB-DL",
+  "subtitles": undefined,
+  "title": "25jigen no Ririsa / 2.5 次元的誘惑",
+  "type": undefined,
+  "video": {
+    "resolution": "1080P",
+    "term": "AVC",
+  },
+  "volume": {
+    "number": undefined,
+  },
+  "year": undefined,
+}
+`;
+
 exports[`Other filenames > should parse [ANi] 機動戰士鋼彈 水星的魔女 Season 2 - 13 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4] 1`] = `
 {
   "audio": {
@@ -177,43 +214,6 @@ exports[`Other filenames > should parse [LoliHouse] 满怀美梦的少年是现�
   "video": {
     "resolution": "1080p",
     "term": "HEVC-10bit",
-  },
-  "volume": {
-    "number": undefined,
-  },
-  "year": undefined,
-}
-`;
-
-exports[`Other filenames > should parse [OPFans枫雪动漫][#海贼王#ONE PIECE 第1078话 Mp4 1080p 1`] = `
-{
-  "audio": {
-    "term": undefined,
-  },
-  "episode": {
-    "number": 1078,
-    "numberAlt": undefined,
-    "title": undefined,
-  },
-  "file": {
-    "checksum": undefined,
-    "extension": "Mp4",
-    "name": "[OPFans枫雪动漫][#海贼王#ONE PIECE 第1078话 Mp4 1080p",
-  },
-  "language": undefined,
-  "month": undefined,
-  "release": {
-    "group": undefined,
-    "version": undefined,
-  },
-  "season": undefined,
-  "source": undefined,
-  "subtitles": undefined,
-  "title": undefined,
-  "type": undefined,
-  "video": {
-    "resolution": "1080p",
-    "term": undefined,
   },
   "volume": {
     "number": undefined,

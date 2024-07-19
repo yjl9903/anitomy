@@ -4,7 +4,7 @@ import { setEpisodeNumber } from './episode';
 import { isDashCharacter, isMatchTokenCategory } from './utils';
 
 import { isNumericString } from '../utils';
-import { TokenCategory, TokenFlag, findNextToken, findPrevToken } from '../token';
+import { Token, TokenCategory, TokenFlag, findNextToken, findPrevToken } from '../token';
 
 export const AnimeYearMin = 1900;
 export const AnimeYearMax = 2100;
@@ -160,6 +160,10 @@ export function searchForLastNumber(context: ParserContext, tokens: number[]) {
       }
     }
 
+    if (matchFractionalEpisodePattern(context, context.tokens[it].content, context.tokens[it])) {
+      return true;
+    }
+
     // We'll use this number after all
     if (setEpisodeNumber(context, context.tokens[it].content, context.tokens[it], true)) {
       return true;
@@ -174,4 +178,13 @@ export function isValidEpisodeNumber(num: string) {
     temp.push(num[i]);
   }
   return temp.length > 0 && parseFloat(temp.join('')) <= EpisodeNumberMax;
+}
+
+/**
+ * Match fractional episodes. e.g. "07.5"
+ */
+function matchFractionalEpisodePattern(context: ParserContext, word: string, token: Token) {
+  const RE = /^\d+\.5$/;
+  const match = RE.exec(word);
+  return match && setEpisodeNumber(context, word, token, true);
 }

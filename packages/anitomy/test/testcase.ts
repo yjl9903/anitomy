@@ -64,7 +64,8 @@ export const KitaujiSub = [
   '[北宇治字幕组] 赛马娘 Pretty Derby Road to the Top / Uma Musume - Pretty Derby - Road to the Top [03 v2][Webrip][1080p][HEVC_AAC][简体内封]',
   '[KitaujiSub] Uma Musume - Pretty Derby - Road to the Top [03][Webrip][1080P][HEVC_AAC][CHS][v2].mkv',
   '[北宇治Anarchism字幕组] 魔法少女毀滅者/Mahou Shoujo Magical Destroyers [04][Webrip][1080p][HEVC_AAC][CHT][MP4]',
-  '[北宇治字幕组&霜庭云花Sub&氢气烤肉架]【我推的孩子】/【Oshi no ko】[03 V2][Webrip][1080p][HEVC_AAC][简繁日内封]'
+  '[北宇治字幕组&霜庭云花Sub&氢气烤肉架]【我推的孩子】/【Oshi no ko】[03 V2][Webrip][1080p][HEVC_AAC][简繁日内封]',
+  `[北宇治字幕组][偶像大师 灰姑娘女孩 U149/THE iDOLM@STER CINDERELLA GIRLS U149][7.5][Webrip][1080p][HEVC_AAC][简中无障碍内嵌]`
 ];
 
 export const other = [
@@ -81,7 +82,8 @@ export const other = [
   `【极影字幕社】★7月新番 白圣女与黑牧师 Shiro Seijo to Kuro Bokushi 第01v2话 GB 1080P MP4（字幕社招人内详）`,
   `[ANi] 無職轉生～到了異世界就拿出真本事 第二季 - 特別篇 [1080P][Baha][WEB-DL][AAC AVC][CHT][V2][MP4]`,
   `[LoliHouse] 满怀美梦的少年是现实主义者 / Yumemiru Danshi wa Genjitsushugisha [01-12合集][WebRip 1080p HEVC-10bit AAC][简繁内封字幕][Fin]`,
-  `[轻之国度字幕组][女友成双/女朋友 and 女朋友][第01-12话][720P][MP4]`
+  `[轻之国度字幕组][女友成双/女朋友 and 女朋友][第01-12话][720P][MP4]`,
+  `[ANi] 25jigen no Ririsa / 2.5 次元的誘惑 - 03 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]`
 ];
 
 export const fails = [`[OPFans枫雪动漫][#海贼王#ONE PIECE 第1078话 Mp4 1080p`];

@@ -221,3 +221,40 @@ exports[`Kitaujisub > should parse 6`] = `
   "year": undefined,
 }
 `;
+
+exports[`Kitaujisub > should parse 7`] = `
+{
+  "audio": {
+    "term": "AAC",
+  },
+  "episode": {
+    "number": 7.5,
+    "numberAlt": undefined,
+    "title": undefined,
+  },
+  "file": {
+    "checksum": undefined,
+    "extension": undefined,
+    "name": "[北宇治字幕组][偶像大师 灰姑娘女孩 U149/THE iDOLM@STER CINDERELLA GIRLS U149][7.5][Webrip][1080p][HEVC_AAC][简中无障碍内嵌]",
+  },
+  "language": undefined,
+  "month": undefined,
+  "release": {
+    "group": "北宇治字幕组",
+    "version": undefined,
+  },
+  "season": undefined,
+  "source": "Webrip",
+  "subtitles": undefined,
+  "title": "偶像大师 灰姑娘女孩 U149/THE iDOLM@STER CINDERELLA GIRLS U149",
+  "type": undefined,
+  "video": {
+    "resolution": "1080p",
+    "term": "HEVC",
+  },
+  "volume": {
+    "number": undefined,
+  },
+  "year": undefined,
+}
+`;

@@ -12279,6 +12279,192 @@ exports[`tokenize > should work 61`] = `
 {
   "ok": true,
   "result": {
+    "video.resolution": "1080p",
+  },
+  "tokens": [
+    {
+      "category": "Bracket",
+      "content": "[",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "北宇治字幕组",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "]",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "[",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "偶像大师",
+      "enclosed": true,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "灰姑娘女孩",
+      "enclosed": true,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "U149/THE",
+      "enclosed": true,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "iDOLM@STER",
+      "enclosed": true,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "CINDERELLA",
+      "enclosed": true,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "GIRLS",
+      "enclosed": true,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "U149",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "]",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "[",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "7.5",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "]",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "[",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "Webrip",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "]",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "[",
+      "enclosed": true,
+    },
+    {
+      "category": "Identifier",
+      "content": "1080p",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "]",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "[",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "HEVC",
+      "enclosed": true,
+    },
+    {
+      "category": "Delimiter",
+      "content": "_",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "AAC",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "]",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "[",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "简中无障碍内嵌",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "]",
+      "enclosed": true,
+    },
+  ],
+}
+`;
+
+exports[`tokenize > should work 62`] = `
+{
+  "ok": true,
+  "result": {
     "video.resolution": "1080P",
   },
   "tokens": [
@@ -12371,7 +12557,7 @@ exports[`tokenize > should work 61`] = `
 }
 `;
 
-exports[`tokenize > should work 62`] = `
+exports[`tokenize > should work 63`] = `
 {
   "ok": true,
   "result": {
@@ -12602,7 +12788,7 @@ exports[`tokenize > should work 62`] = `
 }
 `;
 
-exports[`tokenize > should work 63`] = `
+exports[`tokenize > should work 64`] = `
 {
   "ok": true,
   "result": {
@@ -12793,7 +12979,7 @@ exports[`tokenize > should work 63`] = `
 }
 `;
 
-exports[`tokenize > should work 64`] = `
+exports[`tokenize > should work 65`] = `
 {
   "ok": true,
   "result": {
@@ -12969,7 +13155,7 @@ exports[`tokenize > should work 64`] = `
 }
 `;
 
-exports[`tokenize > should work 65`] = `
+exports[`tokenize > should work 66`] = `
 {
   "ok": true,
   "result": {
@@ -13105,7 +13291,7 @@ exports[`tokenize > should work 65`] = `
 }
 `;
 
-exports[`tokenize > should work 66`] = `
+exports[`tokenize > should work 67`] = `
 {
   "ok": true,
   "result": {
@@ -13261,7 +13447,7 @@ exports[`tokenize > should work 66`] = `
 }
 `;
 
-exports[`tokenize > should work 67`] = `
+exports[`tokenize > should work 68`] = `
 {
   "ok": true,
   "result": {},
@@ -13400,7 +13586,7 @@ exports[`tokenize > should work 67`] = `
 }
 `;
 
-exports[`tokenize > should work 68`] = `
+exports[`tokenize > should work 69`] = `
 {
   "ok": true,
   "result": {
@@ -13611,7 +13797,7 @@ exports[`tokenize > should work 68`] = `
 }
 `;
 
-exports[`tokenize > should work 69`] = `
+exports[`tokenize > should work 70`] = `
 {
   "ok": true,
   "result": {
@@ -13817,7 +14003,7 @@ exports[`tokenize > should work 69`] = `
 }
 `;
 
-exports[`tokenize > should work 70`] = `
+exports[`tokenize > should work 71`] = `
 {
   "ok": true,
   "result": {
@@ -14088,7 +14274,7 @@ exports[`tokenize > should work 70`] = `
 }
 `;
 
-exports[`tokenize > should work 71`] = `
+exports[`tokenize > should work 72`] = `
 {
   "ok": true,
   "result": {
@@ -14234,7 +14420,7 @@ exports[`tokenize > should work 71`] = `
 }
 `;
 
-exports[`tokenize > should work 72`] = `
+exports[`tokenize > should work 73`] = `
 {
   "ok": true,
   "result": {
@@ -14420,7 +14606,7 @@ exports[`tokenize > should work 72`] = `
 }
 `;
 
-exports[`tokenize > should work 73`] = `
+exports[`tokenize > should work 74`] = `
 {
   "ok": true,
   "result": {
@@ -14601,7 +14787,7 @@ exports[`tokenize > should work 73`] = `
 }
 `;
 
-exports[`tokenize > should work 74`] = `
+exports[`tokenize > should work 75`] = `
 {
   "ok": true,
   "result": {
@@ -14707,11 +14893,11 @@ exports[`tokenize > should work 74`] = `
 }
 `;
 
-exports[`tokenize > should work 75`] = `
+exports[`tokenize > should work 76`] = `
 {
   "ok": true,
   "result": {
-    "video.resolution": "1080p",
+    "video.resolution": "1080P",
   },
   "tokens": [
     {
@@ -14721,7 +14907,107 @@ exports[`tokenize > should work 75`] = `
     },
     {
       "category": "Unknown",
-      "content": "OPFans枫雪动漫",
+      "content": "ANi",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "]",
+      "enclosed": true,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": false,
+    },
+    {
+      "category": "Unknown",
+      "content": "25jigen",
+      "enclosed": false,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": false,
+    },
+    {
+      "category": "Unknown",
+      "content": "no",
+      "enclosed": false,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": false,
+    },
+    {
+      "category": "Unknown",
+      "content": "Ririsa",
+      "enclosed": false,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": false,
+    },
+    {
+      "category": "Unknown",
+      "content": "/",
+      "enclosed": false,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": false,
+    },
+    {
+      "category": "Unknown",
+      "content": "2.5",
+      "enclosed": false,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": false,
+    },
+    {
+      "category": "Unknown",
+      "content": "次元的誘惑",
+      "enclosed": false,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": false,
+    },
+    {
+      "category": "Unknown",
+      "content": "-",
+      "enclosed": false,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": false,
+    },
+    {
+      "category": "Unknown",
+      "content": "03",
+      "enclosed": false,
+    },
+    {
+      "category": "Delimiter",
+      "content": " ",
+      "enclosed": false,
+    },
+    {
+      "category": "Bracket",
+      "content": "[",
+      "enclosed": true,
+    },
+    {
+      "category": "Identifier",
+      "content": "1080P",
       "enclosed": true,
     },
     {
@@ -14736,7 +15022,37 @@ exports[`tokenize > should work 75`] = `
     },
     {
       "category": "Unknown",
-      "content": "#海贼王#ONE",
+      "content": "Baha",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "]",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "[",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "WEB-DL",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "]",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "[",
+      "enclosed": true,
+    },
+    {
+      "category": "Unknown",
+      "content": "AAC",
       "enclosed": true,
     },
     {
@@ -14746,42 +15062,42 @@ exports[`tokenize > should work 75`] = `
     },
     {
       "category": "Unknown",
-      "content": "PIECE",
+      "content": "AVC",
       "enclosed": true,
     },
     {
-      "category": "Delimiter",
-      "content": " ",
+      "category": "Bracket",
+      "content": "]",
       "enclosed": true,
     },
     {
-      "category": "Unknown",
-      "content": "第1078话",
-      "enclosed": true,
-    },
-    {
-      "category": "Delimiter",
-      "content": " ",
+      "category": "Bracket",
+      "content": "[",
       "enclosed": true,
     },
     {
       "category": "Unknown",
-      "content": "Mp4",
+      "content": "CHT",
       "enclosed": true,
     },
     {
-      "category": "Delimiter",
-      "content": " ",
+      "category": "Bracket",
+      "content": "]",
       "enclosed": true,
     },
     {
-      "category": "Identifier",
-      "content": "1080p",
+      "category": "Bracket",
+      "content": "[",
       "enclosed": true,
     },
     {
       "category": "Unknown",
-      "content": "",
+      "content": "MP4",
+      "enclosed": true,
+    },
+    {
+      "category": "Bracket",
+      "content": "]",
       "enclosed": true,
     },
   ],

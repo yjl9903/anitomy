@@ -5,7 +5,7 @@ export function inRange<T>(list: T[], idx: number) {
 }
 
 export function isNumericString(text: string) {
-  return /^\d+$/.test(text);
+  return /^\d+(\.\d)?$/.test(text);
 }
 
 export function trim(text: string, removal: string[]) {
