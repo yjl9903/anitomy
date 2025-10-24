@@ -19,7 +19,7 @@
     "typescript": "^5.9.3",
     "unbuild": "^3.6.1",
     "vite": "^7.1.12",
-    "vitest": "^4.0.2"
+    "vitest": "^4.0.3"
   },
   "packageManager": "pnpm@10.19.0",
   "engines": {
