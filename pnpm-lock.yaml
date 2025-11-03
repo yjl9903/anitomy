@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       '@types/node':
-        specifier: ^24.9.2
+        specifier: ^24.10.0
         version: 24.10.0
       bumpp:
         specifier: latest
