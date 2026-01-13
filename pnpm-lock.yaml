@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@types/node':
-        specifier: ^24.10.7
-        version: 24.10.7
+        specifier: ^24.10.8
+        version: 24.10.8
       bumpp:
         specifier: latest
-        version: 10.3.2
+        version: 10.4.0
       turbo:
         specifier: ^2.7.4
         version: 2.7.4
@@ -25,10 +25,10 @@ importers:
         version: 3.6.1(typescript@5.9.3)
       vite:
         specifier: ^7.3.1
-        version: 7.3.1(@types/node@24.10.7)(jiti@2.6.1)(yaml@2.8.2)
+        version: 7.3.1(@types/node@24.10.8)(jiti@2.6.1)(yaml@2.8.2)
       vitest:
         specifier: ^4.0.17
-        version: 4.0.17(@types/node@24.10.7)(jiti@2.6.1)(yaml@2.8.2)
+        version: 4.0.17(@types/node@24.10.8)(jiti@2.6.1)(yaml@2.8.2)
 
   packages/anitomy: {}
 
@@ -548,8 +548,8 @@ packages:
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
-  '@types/node@24.10.7':
-    resolution: {integrity: sha512-+054pVMzVTmRQV8BhpGv3UyfZ2Llgl8rdpDTon+cUH9+na0ncBVXj3wTUKh14+Kiz18ziM3b4ikpP5/Pc0rQEQ==}
+  '@types/node@24.10.8':
+    resolution: {integrity: sha512-r0bBaXu5Swb05doFYO2kTWHMovJnNVbCsII0fhesM8bNRlLhXIuckley4a2DaD+vOdmm5G+zGkQZAPZsF80+YQ==}
 
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
@@ -618,8 +618,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
-  bumpp@10.3.2:
-    resolution: {integrity: sha512-yUUkVx5zpTywLNX97MlrqtpanI7eMMwFwLntWR2EBVDw3/Pm3aRIzCoDEGHATLIiHK9PuJC7xWI4XNWqXItSPg==}
+  bumpp@10.4.0:
+    resolution: {integrity: sha512-VzJhB4iyZ04w99HreEvXJY/lxzApnE/PRbcFY4cKnOUSRVbRbAf0AIU0DeavrkffW+mclJlkmnQYn9NdwcBk1g==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1654,7 +1654,7 @@ snapshots:
 
   '@types/estree@1.0.8': {}
 
-  '@types/node@24.10.7':
+  '@types/node@24.10.8':
     dependencies:
       undici-types: 7.16.0
 
@@ -1669,13 +1669,13 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.0.3
 
-  '@vitest/mocker@4.0.17(vite@7.3.1(@types/node@24.10.7)(jiti@2.6.1)(yaml@2.8.2))':
+  '@vitest/mocker@4.0.17(vite@7.3.1(@types/node@24.10.8)(jiti@2.6.1)(yaml@2.8.2))':
     dependencies:
       '@vitest/spy': 4.0.17
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.3.1(@types/node@24.10.7)(jiti@2.6.1)(yaml@2.8.2)
+      vite: 7.3.1(@types/node@24.10.8)(jiti@2.6.1)(yaml@2.8.2)
 
   '@vitest/pretty-format@4.0.17':
     dependencies:
@@ -1728,7 +1728,7 @@ snapshots:
       node-releases: 2.0.27
       update-browserslist-db: 1.2.3(browserslist@4.28.1)
 
-  bumpp@10.3.2:
+  bumpp@10.4.0:
     dependencies:
       ansis: 4.2.0
       args-tokenizer: 0.3.0
@@ -2453,7 +2453,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite@7.3.1(@types/node@24.10.7)(jiti@2.6.1)(yaml@2.8.2):
+  vite@7.3.1(@types/node@24.10.8)(jiti@2.6.1)(yaml@2.8.2):
     dependencies:
       esbuild: 0.27.2
       fdir: 6.5.0(picomatch@4.0.3)
@@ -2462,15 +2462,15 @@ snapshots:
       rollup: 4.55.1
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.10.7
+      '@types/node': 24.10.8
       fsevents: 2.3.3
       jiti: 2.6.1
       yaml: 2.8.2
 
-  vitest@4.0.17(@types/node@24.10.7)(jiti@2.6.1)(yaml@2.8.2):
+  vitest@4.0.17(@types/node@24.10.8)(jiti@2.6.1)(yaml@2.8.2):
     dependencies:
       '@vitest/expect': 4.0.17
-      '@vitest/mocker': 4.0.17(vite@7.3.1(@types/node@24.10.7)(jiti@2.6.1)(yaml@2.8.2))
+      '@vitest/mocker': 4.0.17(vite@7.3.1(@types/node@24.10.8)(jiti@2.6.1)(yaml@2.8.2))
       '@vitest/pretty-format': 4.0.17
       '@vitest/runner': 4.0.17
       '@vitest/snapshot': 4.0.17
@@ -2487,10 +2487,10 @@ snapshots:
       tinyexec: 1.0.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.0.3
-      vite: 7.3.1(@types/node@24.10.7)(jiti@2.6.1)(yaml@2.8.2)
+      vite: 7.3.1(@types/node@24.10.8)(jiti@2.6.1)(yaml@2.8.2)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 24.10.7
+      '@types/node': 24.10.8
     transitivePeerDependencies:
       - jiti
       - less
