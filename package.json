@@ -16,7 +16,7 @@
     "@types/node": "^24.12.2",
     "bumpp": "latest",
     "turbo": "^2.9.6",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.3",
     "unbuild": "^3.6.1",
     "vite": "^8.0.8",
     "vitest": "^4.1.4"
