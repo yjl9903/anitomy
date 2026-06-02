@@ -18,7 +18,7 @@
     "turbo": "^2.9.16",
     "typescript": "^5.9.3",
     "unbuild": "^3.6.1",
-    "vite": "^8.0.14",
+    "vite": "^8.0.16",
     "vitest": "^4.1.7"
   },
   "packageManager": "pnpm@10.34.1",
