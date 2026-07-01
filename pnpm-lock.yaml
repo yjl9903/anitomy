@@ -15,7 +15,7 @@ importers:
         specifier: latest
         version: 11.1.0
       turbo:
-        specifier: ^2.10.1
+        specifier: ^2.10.2
         version: 2.10.2
       typescript:
         specifier: ^5.9.3
